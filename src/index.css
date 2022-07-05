@@ -1,13 +1,136 @@
-body {
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
+  text-decoration: none;
+  overflow-y: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+} */
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  top: 20px;
+  width: 100%;
+}
+
+.sign-up {
+  color: #fff;
+  font-size: 2;
+  padding: 10px 20px;
+  background-color: #333;
+  margin-right: 20px;
+}
+
+
+.home {
+  background-image: url(images/surfers.jpg);
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  padding-top: 200px;
+}
+
+.home-img {
+  position: absolute;
+  /* top: ; */
+  max-height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+.home-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.welcome {
+  /* position: relative; */
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  top: 30%;
+}
+
+.website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.welcome h1 {
+  font-size: 150px;
+}
+.welcome h2 {
+  font-size: 50px;
+}
+.welcome p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.book-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  /* border-radius: 20%; */
+}
+
+.book-button:hover {
+  padding: 10px 20px;
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* Bolaji */
+
+.gradient-custom-2 {
+  background: #90b0fc;
+  background: -webkit-linear-gradient(to right, rgb(178, 178, 248), rgb(169, 169, 251), rgb(101, 101, 241), #a88dfa);
+  background: linear-gradient(to right, rgb(178, 178, 248), rgb(169, 169, 251), rgb(101, 101, 241));
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+      height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+  }
+}
+
+.background__image
+{
+  background-image: url('./images/home.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.493);
 }

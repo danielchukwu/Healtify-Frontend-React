@@ -1,0 +1,30 @@
+.gradient-custom-2 {
+    background: #90b0fc;
+    background: -webkit-linear-gradient(to right, rgb(178, 178, 248), rgb(169, 169, 251), rgb(101, 101, 241), #a88dfa);
+    background: linear-gradient(to right, rgb(178, 178, 248), rgb(169, 169, 251), rgb(101, 101, 241));
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+.background__image
+{
+    background-image: url('./images/home.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.background__cover
+{}

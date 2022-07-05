@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "Why do we use it?\nIt is a long established fact that JavaScript is an amazing language that i am more than willing to study up on and actually take timeout to learn.",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Opening Party!",
+      "body": "Why do we use it?\nIt is a long established fact that JavaScript is an amazing language that i am more than willing to study up on and actually take timeout to learn.",
+      "author": "yoshi",
+      "id": 2
+    },
+    {
+      "title": "Burna Boy Wins A GRAMMY🌟🌟🌟",
+      "body": "Anybody way no day carry body. Nak am something!",
+      "author": "uche",
+      "id": 3
+    },
+    {
+      "title": "Tekno Was A STAR ",
+      "body": "Forget about the big things say make we talk about the small things!",
+      "author": "mario",
+      "id": 4
+    }
+  ]
+}
